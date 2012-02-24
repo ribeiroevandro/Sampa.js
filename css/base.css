@@ -1,0 +1,60 @@
+/* General Demo Style */
+body{
+    background: #f7f7f7 url(../images/old_wall.jpg) repeat top left;
+    color: rgba(0,0,0,0.8);
+    font-family: 'Kelly Slab','Myriad Pro', Arial, sans-serif;
+    font-size: 15px;
+	height:20px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    position: relative;
+}
+.clr{
+    clear: both;
+}
+h1{
+    font-size: 20px;
+    position:relative;
+    font-weight: 400;
+    padding: 30px 5px 10px 5px;
+	margin: 0px 15px;
+	color: rgba(153,157,181,0.6);
+	text-shadow: 0px 1px 1px #fff;
+	border-bottom: 1px solid rgba(17,17,22,0.1);
+}
+/* Header Style */
+.header{
+    font-family:'Arial Narrow', Arial, sans-serif;
+    line-height: 24px;
+    font-size: 11px;
+    background: #000;
+    opacity: 0.9;
+    text-transform: uppercase;
+    z-index: 9999;
+    position: relative;
+    -moz-box-shadow: 1px 0px 2px #000;
+    -webkit-box-shadow: 1px 0px 2px #000;
+    box-shadow: 1px 0px 2px #000;
+}
+.header a{
+    padding: 0px 10px;
+    letter-spacing: 1px;
+    color: #ddd;
+    display: block;
+    float: left;
+}
+.header a:hover{
+    color: #fff;
+}
+.header span.right{
+    float: right;
+}
+.header span.right a{
+    float: none;
+    display: inline;
+}
