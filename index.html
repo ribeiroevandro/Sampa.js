@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <title>Sampa.js - Segunda que contará com 8 palestras e o evento será gratuito</title>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <meta name="description" content="evento sampa.js" http-equiv="description" />
-       	<meta name="keywords" content="sampa.js, javascript, evento javascript, js, node.js, tdd, storage, api, jquery" http-equiv="keywords" />
-        <meta name="author" content="Evandro Ribeiro - www.facebook.com/ribeiroevandro" />
-        <link rel="shortcut icon" href="images/favicon.png" />
+        <meta name="description" content="Lateral On-Scroll Sliding with jQuery - Timeline Example with CSS3" />
+        <meta name="keywords" content="lateral, sides, slide, scroll, jquery, css3, timeline" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="images/favicon.png"> 
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+        <link rel="stylesheet" type="text/css" href="css/twitter.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link href='http://fonts.googleapis.com/css?family=Kelly+Slab' rel='stylesheet' type='text/css' />
 		<!--[if lt IE 9]>
@@ -19,21 +21,68 @@
     <body>
         <div class="container">
 
-            <h1>Esta será a segunda edição do Sampa.js que desta vez começará na parte da tarde para que o pessoal possa dormir um pouco mais.
-            	<br />Os temas abordados nas palestras serão: Design Patterns aplicados, Melhorando Acessibilidade de Aplicações JavaScript, Automatizando testes de Javascript no front-end, REST Client Side, ECMAScript5 e 6, jQuery Mobile e Node.js</h1>
-            <h2 class="ss-subtitle">Palestras</h2>
-			<div id="fb">
-				<div class="fb-like" data-href="http://www.sampajs.com" data-send="false" data-width="300" data-show-faces="true" data-font="arial"></div>
-			</div>          
-            <div id="ss-container" class="ss-container">
-                <div class="ss-row">
-                    <div class="ss-left">
-                        <h2 id="november">Inscrições -></h2>
-                    </div>
-                    <div class="ss-right">
-                        <h2><a href="http://goo.gl/xkeIl" target="_blank" id="november" class="link_inscricoes">Aqui</a></h2>
+            <h1 class="ss-title">Sampa.js - 17 de Março</h1>
+            
+
+            <h1>Os temas abordados serão: Design Patterns aplicados, Melhorando Acessibilidade de Aplicações JavaScript, Automatizando testes de Javascript no front-end, REST Client Side, ECMAScript5 e 6, jQuery Mobile, Page Visibility e Compress e Minified - Vantagens.</h1>
+            <div id="destaques">
+                <div id="tabela">
+                    <span class="titulo">Horários das Palestras</span>
+                    <span class="subtitulo">Nome</span>
+                    <span class="subtitulo">Horario</span>
+                    <span class="palestrantes">Joao Batista Neto</span>
+                    <span class="palestrantes">13:00 horas</span>
+                    <span class="palestrantes">Ciro Nunes</span>
+                    <span class="palestrantes">13:50 horas</span>
+                    <span class="palestrantes">Irae</span>
+                    <span class="palestrantes">14:50 horas</span>
+                    <span class="palestrantes">Alexandre Gaigalas</span>
+                    <span class="palestrantes">15:30 horas</span>
+                    <span class="palestrantes almoco">Coffee Break</span>
+                    <span class="palestrantes almoco">16:20 horas</span>
+                    <span class="palestrantes">Leonardo Alberto Souza</span>
+                    <span class="palestrantes">17:00 horas</span>
+                    <span class="palestrantes">Daniel Filho</span>
+                    <span class="palestrantes">17:50 horas</span>
+                    <span class="palestrantes">Robson Pinto</span>
+                    <span class="palestrantes">18:40 horas</span>
+                    <span class="palestrantes nb">Thiago Aveline</span>
+                    <span class="palestrantes nb">19:30 horas</span>
+                </div>
+                <div id="localizacao">
+                    <span class="cinzaEscuro">Local do Evento</span>
+                    <span class="cinzaClaro">Rua Tenerife, 31 - 13a, São Paulo</span>         
+                    <a href="http://maps.google.com.br/maps?f=q&source=embed&hl=pt-BR&geocode=+&q=Rua+Tenerife,+31+-+13a,+S%C3%A3o+Paulo&ie=UTF8&hq=&hnear=R.+Tenerife,+31+-+Itaim+Bibi,+S%C3%A3o+Paulo,+04548-040&ll=-23.5963,-46.687886&spn=0.010087,0.019226&t=m&z=14&vpsrc=0&iwloc=r3" target="_blank"><img src="images/mapa.jpg" alt=""></a>
+                </div>
+                <a href="http://goo.gl/xkeIl" target="_blank" id="november" class="link_inscricoes"><span class="cadastre">Cadastre-se AQUI!</span></a>
+                <div id="facebook">
+                    <span class="cinzaClaro" id="tituloRedes">Curta no Facebook
+                    </span>
+                        <div class="fb-like" data-href="http://www.sampajs.com" data-send="false" data-width="330" style="margin-top:5px;" data-show-faces="true" data-font="arial"></div>
+                </div>
+
+                <div id="tw">
+                    <span class="cinzaClaro" id="tituloRedes">Acompanhe no Twitter #SampaJS
+                    </span>
+                      <div class="alinhador">
+                        <div id="twitter"></div>  
+                      </div>   
+                </div>
+                <div id="apoio">
+                    <h1>Apoio:</h1>
+                    <div id="apoiadores">
+                        <a href="http://www.novatec.com.br/" target="_blank"><img src="images/novatec.png" style="margin-right:20px;" alt="Editora Novatec" title="Editora Novatec" /></a>
+                        <a href="http://www.gonow.com.br" target="_blank"><img src="images/gonow.png" style="margin-right:20px;"  alt="GoNow - Consultoria e Outsourcing em Tecnologia" title="GoNow - Consultoria e Outsourcing em Tecnologia" /></a>                        
+                        <a href="http://www.imasters.com.br" target="_blank"><img src="images/imasters.png" style="margin-right:20px;"  alt="iMasters - Por uma internet mais criativa e dinâmica" title="iMasters - Por uma internet mais criativa e dinâmica" /></a>
+                         <a href="http://schoolofnet.com/" target="_blank"><img src="images/logo_son.png" style="margin-right:20px;" alt="School of Net - Cursos on line" title="School of Net" /></a>
+                        <a href="http://nodegrid.com" target="_blank"><img src="images/nodegrid.png" style="margin-right:20px;" alt="Nodegrid Cloud Source" title="Nodegrid Cloud Source" /></a>
+                        <a href="http://www.thesolution.com.br" target="_blank"><img src="images/the-solutions.png" alt="The Solution - Soluções em Hosting, Desenvolvimento & Consultoria" title="The Solution - Soluções em Hosting, Desenvolvimento & Consultoria" /></a>                       
+                        <a href="http://fixagr.am" target="_blank"><img src="images/fixagram.png" alt="FIXAGR.AM - Fixe essa idéia você também!" title="FIXAGR.AM - Fixe essa idéia você também!" /></a>
                     </div>
                 </div>
+            </div>
+            <h2 class="ss-subtitle" id="grade">Grade de Palestras</h2>
+            <div id="ss-container" class="ss-container">
                 <div class="ss-row ss-medium">
                     <div class="ss-left">
                         <a href="http://www.facebook.com/neto.joaobatista" title="Link -> facebook" class="ss-circle ss-circle-1" target="_blank">João Batista Neto</a>
@@ -45,64 +94,69 @@
                         </h3>
                     </div>
                 </div>
-				<div class="ss-row ss-medium">
+                <div class="ss-row ss-medium">
                     <div class="ss-left">
                         <h3>
                             <span>Ciro Nunes - Front End Developer na empresa Hiperativa Design</span>
                             <p>Design Pattern em apps JavaScript</p>
+                            <p class="desc">Nesta palestra vamos ver como os Design Patterns nos ajudam a desenvolver aplicações web de maneira simples e elegante, proporcionando código reutilizável e fácil de manter até mesmo em grandes equipes.</p>
                         </h3>
                     </div>
-					<div class="ss-right">
+                    <div class="ss-right">
                         <a href="http://twitter.com/cironunesdev" title="Link -> twitter" class="ss-circle ss-circle-2" target="_blank">Ciro Nunes</a>
                     </div>
                 </div>
                 <div class="ss-row ss-medium">
                     <div class="ss-left">
-						<a href="http://about.me/irae" title="Link -> About.me" class="ss-circle ss-circle-3" target="_blank">Iraê Carvalho</a>
+                        <a href="http://about.me/irae" title="Link -> about.me" class="ss-circle ss-circle-3" target="_blank"></a>
                     </div>
                     <div class="ss-right">
                         <h3>
                             <span>Iraê Carvalho - Senior Front End Developer na empresa Yahoo Brasil</span>
-<p>Automatizando testes de Javascript no front-end - Como garantir uma aplicação sem bugs? Como garantir que novas funcionalidades não criem bugs em códigos antigos? Como fazer isso de forma automática? Para responder essas perguntas veremos ferramentas de testes unitários, validadores de sintaxe, cobertura, compactação, testes de integração, scripts de automação, e finalmente integração contínua.</p>
+                            <p>Automatizando testes de Javascript no front-end</p>
+                            <p class="desc">Como garantir uma aplicação sem bugs? Como garantir que novas funcionalidades não criem bugs em códigos antigos? Como fazer isso de forma automática? Para responder essas perguntas veremos ferramentas de testes unitários, validadores de sintaxe, cobertura, compactação, testes de integração, scripts de automação, e finalmente integração contínua.</p>
                         </h3>
                     </div>
                 </div>
-				<div class="ss-row ss-medium">	
+                <div class="ss-row ss-medium">
                     <div class="ss-left">
                         <h3>
                             <span>Alexandre Gomes Gaigalas (Alganet) - Trabalha na empresa Yahoo!</span>
                             <p>REST Client Side</p>
+                            <p class="desc">Uma visão geral sobre projeto e consumo de APIs em REST no navegador e as vantagens de utilizar recursos do protocolo HTTP como cache, autenticação, negociação de conteúdo e hipermídia.</p>
                         </h3>
                     </div>
-					<div class="ss-right">
-                        <a href="http://about.me/alganet" title="Link -> About.me" class="ss-circle ss-circle-4" target="_blank">Alganet</a>
+                    <div class="ss-right">
+                        <a href="http://about.me/alganet" title="Link -> about.me" class="ss-circle ss-circle-4" target="_blank"></a>
                     </div>
-                </div>
-				<div class="ss-row ss-medium">
+                </div>  
+                <div class="ss-row ss-medium">
                     <div class="ss-left">
-                        <a href="https://www.facebook.com/leobetosouza" title="Link -> facebook" class="ss-circle ss-circle-5" target="_blank">Leonardo</a>
+                        <a href="https://www.facebook.com/leobetosouza" title="Link -> facebook" class="ss-circle ss-circle-5" target="_blank"></a>
                     </div>
                     <div class="ss-right">
                         <h3>
-                            <span>Leonardo Alberto Souza</span>
+                            <span>Leonardo Alberto Souza (Leobetosouza)</span>
                             <p>Melhorando Acessibilidade de Aplicações JavaScript</p>
+                            <p class="desc">Dicas pontuais de como fazer seus sites e aplicações serem mais acessíveis, sem ter muito trabalho e sem aumentar o tempo de entrega. A ideia é fazer com que acessibilidade esteja no sangue do desenvolvedor.</p>
                         </h3>
                     </div>
-                </div>
-                <div class="ss-row ss-medium">	
+                </div> 
+                <div class="ss-row ss-medium">
                     <div class="ss-left">
                         <h3>
                             <span>Daniel Filho - Front end developer na empresa IG</span>
-                            <p>Page Visibility - Page Visibility é uma implementação experimental do grupo de trabalhos de performance web da W3C. Trata-se de detectar se a página está ou não sendo exibida, podendo assim reduzir o consumo de recursos da CPU, banda, entre outros.</p>
+                            <p>Page Visibility</p>
+                            <p class="desc">Page Visibility é uma implementação experimental do grupo de trabalhos de performance web da W3C. Trata-se de detectar se a página está ou não sendo exibida, podendo assim reduzir o consumo de recursos da CPU, banda, entre outros.</p>
                         </h3>
                     </div>
-					<div class="ss-right">
-                        <a href="http://dnl.bz" title="Link -> Site do Daniel" class="ss-circle ss-circle-6" target="_blank">Daniel</a>
+                    <div class="ss-right">
+                        <a href="http://dnl.bz/" title="Link -> home page" class="ss-circle ss-circle-6" target="_blank"></a>
                     </div>
-                </div>
-				<div class="ss-row ss-medium">
+                </div>  
+                <div class="ss-row ss-medium">
                     <div class="ss-left">
-                        <a href="http://twitter.com/bissaum" title="Link -> twitter" target="_blank" class="ss-circle ss-circle-7">	</a>
+                        <a href="http://twitter.com/bissaum" title="Link -> facebook" class="ss-circle ss-circle-7" target="_blank"></a>
                     </div>
                     <div class="ss-right">
                         <h3>
@@ -110,78 +164,45 @@
                             <p>jQuery Mobile</p>
                         </h3>
                     </div>
-                </div>
-				<div class="ss-row ss-medium">
+                </div> 
+                <div class="ss-row ss-medium">
                     <div class="ss-left">
                         <h3>
-                            <span>Luciano Ramalho</span>
-                            <p>Node.js</p>
+                            <span>Thiago Avelino - Owner/Developer na Nodegrid and Developer na GoNow</span>
+                            <p>Node.js em produção</p>
+                            <p class="desc">Desenvolver em JavaScript para qual quer desenvolvedor web é um trabalho simples e confortavel, depois do boom do Node.JS é didatico colocar JavaScript no server side. Vou compartilhar como estamos fazendo na Nodegrid para desenvolver a extenção do Djazz para rodar Node.JS.</p>
                         </h3>
                     </div>
                     <div class="ss-right">
-						<a href="http://www.facebook.com/profile.php?id=542223782" title="Link -> facebook" class="ss-circle ss-circle-8" target="_blank">Luciano</a>
-                    </div>
-                </div>
- 				<div class="ss-row">
-                    <div class="ss-left">
-					     <h4 class="local">Local</h4>
-					      Rua Tenerife, 31 - 13a, São Paulo<br />
-					      <iframe width="450" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=+&amp;q=Rua+Tenerife,+31+-+13a,+S%C3%A3o+Paulo&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Tenerife,+31+-+Itaim+Bibi,+S%C3%A3o+Paulo,+04548-040&amp;ll=-23.5963,-46.687886&amp;spn=0.010087,0.019226&amp;t=m&amp;z=14&amp;vpsrc=0&amp;iwloc=r3&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com.br/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=+&amp;q=Rua+Tenerife,+31+-+13a,+S%C3%A3o+Paulo&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Tenerife,+31+-+Itaim+Bibi,+S%C3%A3o+Paulo,+04548-040&amp;ll=-23.5963,-46.687886&amp;spn=0.010087,0.019226&amp;t=m&amp;z=14&amp;vpsrc=0&amp;iwloc=r3" style="color:#0000FF;text-align:left" target="_blank">Exibir mapa ampliado</a></small><br />
-                    </div>
-                </div>                
-				<div class="ss-row">
-                    <div class="ss-left">
-                        <h2 id="october">Apoio:</h2>
-                    </div>
-                </div>  
-                <div class="ss-row">
-                    <div class="ss-left">
-                        <a href="http://www.novatec.com.br/" target="_blank"><img src="images/novatec.png" alt="Editora Novatec" title="Editora Novatec" /></a>
-                    </div>
-                    <div class="ss-right">
-                        <a href="http://www.gonow.com.br" target="_blank"><img src="images/gonow.png" style="margin-top:15px;" alt="GoNow - Consultoria e Outsourcing em Tecnologia" title="GoNow - Consultoria e Outsourcing em Tecnologia" /></a>
-                    </div>
-                </div>
-                <div class="ss-row">
-                    <div class="ss-left">
-                        <a href="http://www.imasters.com.br" target="_blank"><img src="images/imasters.png" alt="iMasters - Por uma internet mais criativa e dinâmica" title="iMasters - Por uma internet mais criativa e dinâmica" /></a>
-                    </div>
-                    <div class="ss-right">
-                        <a href="http://fixagr.am" target="_blank"><img src="images/fixagram.png" style="margin-top:15px;" alt="FIXAGR.AM - Fixe essa idéia você também!" title="FIXAGR.AM - Fixe essa idéia você também!" /></a>
+                        <a href="http://www.avelino.us/" title="Link -> home page" class="ss-circle ss-circle-8" target="_blank"></a>
                     </div>
                 </div> 
                 <div class="ss-row">
                     <div class="ss-left">
-                        <a href="http://www.thesolution.com.br" target="_blank"><img src="images/the-solutions.png" alt="The Solution - Soluções em Hosting, Desenvolvimento & Consultoria" title="The Solution - Soluções em Hosting, Desenvolvimento & Consultoria" /></a>
+                        <h2 id="november">Edição anterior</h2>
                     </div>
                     <div class="ss-right">
-                        <a href="http://nodegrid.com" target="_blank"><img src="images/nodegrid.png" style="margin-top:40px;" alt="Nodegrid Cloud Source" title="Nodegrid Cloud Source" /></a>
+                        <h2>EMBREVE!!!!</h2>
                     </div>
-                </div>      
-                <div class="ss-row">
-                    <div class="ss-left">
-                        <a href="http://schoolofnet.com/" target="_blank"><img src="images/logo_son.png" alt="School of Net - Cursos on line" title="School of Net" /></a>
-                    </div>
-                    <div class="ss-right">
-                    </div>
-                </div>          
-            </div>                    
+                </div>
             </div>
         </div>
         <div id="fb-root"></div>
-        <script>
-            (function(d, s, id) {
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/twitter.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript">
+        $(document).ready(function(){
+            twitterTimeline('ribeiroevandro', 2);
+        });         
+        (function(d, s, id) {
               var js, fjs = d.getElementsByTagName(s)[0];
               if (d.getElementById(id)) {return;}
               js = d.createElement(s); js.id = id;
               js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
               fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
-		</script>
 
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-		<script type="text/javascript">
 		$(function() {
 
 			var $sidescroll	= (function() {
@@ -220,8 +241,8 @@
 						// if perspective add css
 						if( perspective ) {
 							$rows.css({
-								'-webkit-perspective'			: 800,
-								'-webkit-perspective-origin'	: '80% 0%'
+								'-webkit-perspective'			: 600,
+								'-webkit-perspective-origin'	: '50% 0%'
 							});
 						}
 						// show the pointers for the inviewport rows

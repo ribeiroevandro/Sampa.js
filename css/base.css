@@ -1,10 +1,11 @@
+@import url('reset.css');
+
 /* General Demo Style */
 body{
     background: #f7f7f7 url(../images/old_wall.jpg) repeat top left;
     color: rgba(0,0,0,0.8);
     font-family: 'Kelly Slab','Myriad Pro', Arial, sans-serif;
     font-size: 15px;
-	height:20px;
 }
 a{
     color: #fff;
@@ -13,48 +14,164 @@ a{
 .container{
     width: 100%;
     position: relative;
+    float: left;
 }
 .clr{
     clear: both;
 }
 h1{
-    font-size: 24px;
+    font-size: 20px;
     position:relative;
     font-weight: 400;
-    padding: 30px 5px 10px 5px;
+    padding: 5px 5px 10px 5px;
 	margin: 0px 15px;
-	color: #000;
+	color: #666;
 	text-shadow: 0px 1px 1px #fff;
 	border-bottom: 1px solid rgba(17,17,22,0.1);
 }
-/* Header Style */
-.header{
-    font-family:'Arial Narrow', Arial, sans-serif;
-    line-height: 24px;
-    font-size: 11px;
-    background: #000;
-    opacity: 0.9;
-    text-transform: uppercase;
-    z-index: 9999;
-    position: relative;
-    -moz-box-shadow: 1px 0px 2px #000;
-    -webkit-box-shadow: 1px 0px 2px #000;
-    box-shadow: 1px 0px 2px #000;
+#destaques{
+	width:96%; 
+	height:475px; 
+	border-left: 1px solid rgba(17,17,22,0.1);
+	border-right: 1px solid rgba(17,17,22,0.1);
+	border-bottom: 1px solid rgba(17,17,22,0.1);
+	margin:0px 0px 0px 27px;
 }
-.header a{
-    padding: 0px 10px;
-    letter-spacing: 1px;
-    color: #ddd;
-    display: block;
-    float: left;
+#apoio{
+	width:98.2%;
+	float: left; 
+	height:110px; 
+	border: 1px solid rgba(17,17,22,0.1);
+	margin:5px 0px 0px 10px;
 }
-.header a:hover{
-    color: #fff;
+#apoio h1{
+    font-size: 20px;
+    position:relative;
+    font-weight: 400;
+    padding: 5px 5px 10px 5px;
+	margin: 0px 15px;
+	color: #666;
+	text-shadow: 0px 1px 1px #fff;
+	border:0;X
+	width:50px;
+	float: left;
 }
-.header span.right{
-    float: right;
+	#apoiadores{
+		margin-left: 10px;
+		float: left;
+		width:1150px;
+		height:100px;
+		padding: 0px 0px 0px 10px;
+	}
+#tabela{
+	width:500px;
+	float:left;
+	text-align:center;
+	border: 2px solid rgba(17,17,22,0.2);
+	margin: 10px 0px 0px 10px;
 }
-.header span.right a{
-    float: none;
-    display: inline;
-}
+	.titulo{
+		width:490px;
+		height:20px;
+		padding:5px;
+		float:left;
+		color:#000;
+		text-shadow: 0px 1px 1px #fff;
+		background:rgba(17,17,22,0.3);
+		border-bottom: 1px solid rgba(17,17,22,0.1);
+		font-weight: bold;
+		font-size:18px;
+	}
+	.subtitulo{
+		width:240px;
+		height:20px;
+		padding:5px;
+		float:left;
+		background:rgba(17,17,22,0.1);
+		border-bottom: 1px solid rgba(17,17,22,0.1);
+		font-weight: bold;
+	}
+	.palestrantes{
+		width:240px;
+		height:20px;
+		padding:5px;
+		float:left;
+		border-bottom: 1px solid rgba(17,17,22,0.1);
+	}
+	.almoco{
+		background:rgba(255,0,0,0.3);
+		font-weight:bold;
+	}
+	.nb{border-bottom:none;}
+	#localizacao{
+		width:404px;
+		height:340px;
+		overflow:hidden;
+		float:left;
+		text-align:center;
+		margin: 10px 0px 0px 10px;	
+		border: 2px solid rgba(17,17,22,0.2);	
+	}
+	#localizacao span{
+		width:394px;
+		height:20px;
+		padding:5px;
+		float:left;
+		color:#000;
+		text-shadow: 0px 1px 1px #fff;
+		border-bottom: 1px solid rgba(17,17,22,0.1);
+		font-weight: bold;
+		font-size:18px;		
+	}
+	#facebook{
+		width:338px;
+		height:100px;
+		overflow:hidden;
+		float:left;
+		text-align:center;
+		margin: 10px 0px 0px 10px;	
+		border: 2px solid rgba(17,17,22,0.2);	
+	}
+	#tituloRedes{
+		width:328px;
+		height:20px;
+		padding:5px;
+		float:left;
+		color:#000;
+		text-shadow: 0px 1px 1px #fff;
+		border-bottom: 1px solid rgba(17,17,22,0.1);
+		font-weight: bold;
+		font-size:18px;		
+	}	
+	#tw{
+		width:338px;
+		height:177px;
+		/*overflow:hidden;*/
+		float:left;
+		text-align:center;
+		margin: 10px 0px 0px 10px;	
+		border: 2px solid rgba(17,17,22,0.2);	
+	}
+
+	.cinzaClaro{
+		background:rgba(17,17,22,0.1);
+	}
+	.cinzaEscuro{
+		background:rgba(17,17,22,0.3);
+	}
+
+	.cadastre{
+		font-size: 40px;
+	    color: rgba(0,0,0,0.8);
+	    position: relative;
+	    margin-left:20px;
+	    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	}
+	p{
+		font-size:24px;
+		color: rgba(255,255,255,1);
+	}
+	p.desc{
+		font-size:20px;
+		color: rgba(255,255,255,0.6);
+	}
