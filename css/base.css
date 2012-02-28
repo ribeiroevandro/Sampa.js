@@ -60,9 +60,9 @@ clear: both;
 	#apoiadores{
 		margin-left: 10px;
 		float: left;
-		width:1150px;
-		height:100px;
-		padding: 0px 0px 0px 10px;
+		width: 100%;
+		height: 100px;
+		padding: 0px 0px 30px 10px;
 	}
 #tabela{
 	width:500px;
