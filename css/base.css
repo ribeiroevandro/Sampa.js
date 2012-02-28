@@ -38,11 +38,12 @@ h1{
 	margin:0px 0px 0px 27px;
 }
 #apoio{
-	width:98.2%;
-	float: left; 
-	height:110px; 
-	border: 1px solid rgba(17,17,22,0.1);
-	margin:5px 0px 0px 10px;
+width: 98.2%;
+float: left;
+height: auto;
+border: 1px solid rgba(17, 17, 22, 0.1);
+margin: 15px 0px 40px 0px;
+clear: both;	
 }
 #apoio h1{
     font-size: 20px;
