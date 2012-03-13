@@ -305,3 +305,6 @@ h2.ss-subtitle:after{
 .ss-circle-30{
     background-image: url(../images/30.jpg);
 }
+#cadastrese {
+    color: #f00;
+}
